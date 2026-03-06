@@ -1,0 +1,11 @@
+{
+  "name": "Volit",
+  "short_name": "VOLIT",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0F0F0F",
+  "theme_color": "#C8922A",
+  "icons": [
+    { "src": "logo.svg", "sizes": "512x512", "type": "logo/svg" }
+  ]
+}
