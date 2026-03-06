@@ -1,6 +1,6 @@
 // BUILD: 20260304000001
 const CACHE = 'hfin-20260304000001';
-const ASSETS = ['./', './index.html', './manifest.json'];
+const ASSETS = ['./', './index.html', './manifest.json', './logo.png', './logo-192.png', './logo-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
